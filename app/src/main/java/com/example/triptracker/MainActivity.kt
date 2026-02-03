@@ -144,11 +144,13 @@ fun OverviewScreen() {
         item {
             Text(
                 text = "Plan Your Trip",
+                text = "Upcoming Adventures",
                 style = MaterialTheme.typography.headlineMedium,
                 color = MaterialTheme.colorScheme.onBackground
             )
             Text(
                 text = "Select dates, review trip details, and refine the route with AI insights.",
+                text = "Plan, review, and refine your itinerary with smart guidance.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.75f)
             )
@@ -204,6 +206,8 @@ fun OverviewScreen() {
                 title = "AI Hyper-Analysis",
                 insight = "Most visited: Lake Como (4.9★). Lakefront routes draw the highest ratings and longer stay times.",
                 nextStep = "Boost your score with sunrise docks and a local tasting tour."
+                insight = "Most visited: Lake Como (4.9★). Travelers spend 32% more time by the lakefront with sunset ferry routes.",
+                nextStep = "Boost your rating by booking sunrise docks + local tasting tour."
             )
         }
     }
